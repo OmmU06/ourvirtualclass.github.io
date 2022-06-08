@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Example of using form tag to build html form</title>
+</head>
+
+<body>
+    <form action="backend.sql">
+        <div>NAME:<input type="text"></div>
+        <div>ROLL:<input type="text"></div>
+        <div>SCHOOL:<input type="text"></div>
+        <div>PHONE:<select name="country code">
+                <option value="+1">+1</option>
+                <option value="+91">+91</option>
+                <option value="+2">+2</option>
+                <option value="+3">+3</option>
+            </select>
+            <input type="number">
+        </div>
+        <!-- this is how you can add dropdown by using select tag -->
+        <div>
+            CLASS:<select name="class">
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+        <div>Dob:<input type="date"></div>
+        <div>:E-Mail<input type="email"></div><br>
+        <div><input type="submit"></div>
+    </form>
+</body>
+
+</html>
+<!-- text,submit,checkbox,reset,dropdown,radio,number,date,e-mail -->
